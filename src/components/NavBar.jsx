@@ -6,12 +6,12 @@ export default function Navbar({ fixed }) {
       <nav className="relative w-full flex flex-wrap items-center justify-between px-2 py-3">
         <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
-            <a
+            <button
               className="text-4xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
-              href="#pablo"
+              href="#"
             >
               KANISKAA BEHERA
-            </a>
+            </button>
             <button
               className="text-white cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
@@ -32,7 +32,7 @@ export default function Navbar({ fixed }) {
               <div onClick={() => window.location.replace("/#exp1")}>
               <a
                   className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-                  href="#pablo"
+                  href="#exp1"
                 >
                 <span className="ml-2 text-2xl">Experience</span>
                 </a>
