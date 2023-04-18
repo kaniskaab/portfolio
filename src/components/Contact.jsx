@@ -53,11 +53,10 @@ export default function Contact() {
               className="bg-lime-300 w-40 h-10 m-2 static rounded-lg"
             >
               <div className="bg-black text-blue-500  font-light w-40 h-10 hover:-m-2 text-center flex items-center absolute rounded-lg shadow-lg hover:shadow-xl transition-all duration-150 ease-out hover:ease-in"
-              link="${'links'}"
               >
-                <img src={src} width="30px" height="5=30px" alt={title} />
+                <img src={src} width="30px" height="30px" alt={title} />
                 <div>
-                  <a href={link}><h1 className="m-4 text-xl font-bold">{title}</h1></a>
+                  <h1 className="m-4 text-xl font-bold">{title}</h1>
                 </div>
               </div>
             </div>
