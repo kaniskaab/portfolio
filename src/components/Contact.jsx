@@ -56,7 +56,7 @@ export default function Contact() {
               >
                 <img src={src} width="30px" height="30px" alt={title} />
                 <div>
-                  <h1 className="m-4 text-xl font-bold">{title}</h1>
+                  <h1 className="m-4 text-xl font-bold"><a href={link}>{title}</a></h1>
                 </div>
               </div>
             </div>
