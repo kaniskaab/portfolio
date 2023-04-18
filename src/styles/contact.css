@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&family=Nova+Oval&display=swap');
+#contact
+{
+    background-image: url('../images/endless-constellation\ \(1\).svg');
+    font-family: 'Dongle';
+    /* background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
