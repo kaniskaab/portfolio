@@ -89,9 +89,9 @@ export default function Hero() {
               </div>
               <div class="flex items-center justify-between">
                 <span class=" font-medium text-gray-50">Fresher</span>
-                <a class="font-medium text-blue-500 transition-all duration-300 group-hover:text-blue-500/80">
+                <button class="font-medium text-blue-500 transition-all duration-300 group-hover:text-blue-500/80">
                   Hire Me
-                </a>
+                </button>
               </div>
             </div>
           </div>
